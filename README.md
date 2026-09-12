@@ -18,18 +18,19 @@ The goal of the lab is to create a controlled environment where cybersecurity co
 
 | Component | Configuration |
 |---|---|
-| Host OS | **[Windows version]** |
-| CPU | **[Your CPU]** |
-| Host RAM | **[Your RAM]** |
-| Virtualization Software | VirtualBox **[version]** |
-| Guest OS | Kali Linux **[version]** |
-| Kali RAM | **[allocated RAM]** |
-| Kali CPU | **[allocated CPU cores]** |
-| Network Adapter | **[your adapter configuration]** |
+| Host OS | **10.0.26200 Build 26200** |
+| CPU | **CPU Intel(R) Core(TM) Ultra 7 155H** |
+| Host RAM | **16.0 GB** |
+| Virtualization Software | VirtualBox **Version 7.2.16 r174877 (Qt6.8.0 on windows)
+** |
+| Guest OS | Kali Linux **Debian (64-bit)** |
+| Kali RAM | **4 MB ---> 16364 MB** |
+| Kali CPU | **1 CPU ---> 32 CPUs** |
+| Network Adapter | **NAT Network** |
 
 The virtual machine provides a separate environment for cybersecurity practice while the host system remains outside the testing activities.
 
-## Lab Setup Procedure
+### 1. Lab Setup Procedure
 
 ### 1. Prepare the Host System
 
@@ -57,8 +58,9 @@ After installation, I opened VirtualBox and verified that the application could 
 
 **Evidence:**
 
-- [ ] VirtualBox installation screenshot
-- [ ] VirtualBox Manager screenshot
+- <img width="1972" height="1242" alt="image" src="https://github.com/user-attachments/assets/a0487bba-9842-4ce4-83a0-dbff26a43c5a" />
+
+- <img width="1826" height="1170" alt="image" src="https://github.com/user-attachments/assets/e24ebc46-5b49-4ebe-aff4-aa7ca1174eb8" />
 
 ### 4. Import / Create the Kali Linux VM
 
