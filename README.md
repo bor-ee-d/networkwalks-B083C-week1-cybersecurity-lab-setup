@@ -79,6 +79,21 @@ The VM resources were adjusted according to the available host hardware while le
 
 - <img width="1826" height="1170" alt="image" src="https://github.com/user-attachments/assets/c71e6da9-d17d-4821-aa2d-4985388e731a" />
 
+Step 5 — Configuring the Virtual Network
+
+I configured the virtual networking required for the cybersecurity lab.
+
+The network was configured as:
+
+Network Type: NAT Network
+Network Name: Natnetwork
+IPv4 Network: Manual
+DHCP: Enabled
+
+This network configuration provides a controlled environment for the virtual machines used in the lab.
+
+- <img width="1832" height="1168" alt="Screenshot 2026-09-11 180609" src="https://github.com/user-attachments/assets/feb82417-fa8d-49e1-b5b4-9a756a03b277" />
+
 ## Problems Encountered & Troubleshooting
 
 ### 1. Network Option Missing in VirtualBox
@@ -115,7 +130,7 @@ This became an additional troubleshooting step during the lab setup.
 
 **Resolution:**
 
-**The resolution was rather complicated as I tried multiple strategies to get the network option to show when I got to File --> Tools --> (supposed to find network but not available but every other option is shown). For resolving this issue I uninstalled the VM and then restarted my pc and then reinstalled it but that still didn't fix the issue thats when I opened the installer and opted for repair and then again restarted my pc and checked and that too didn't fix the issue then I thought it would probably appear on it's own after a while and went forward with the next steps and after adding the new Kali Linux VM the network option appeared on it's own probably because it took time to show up in the options.**
+The resolution was rather complicated as I tried **multiple strategies** to get the network option to show when I got to **File --> Tools --> (supposed to find network but not available but every other option is shown)**. For resolving this issue I **uninstalled the VM** and then **restarted my pc** and then **reinstalled it** but that still didn't fix the issue thats when I **opened the installer** and **opted for repair** and then again **restarted my pc** and checked and that too didn't fix the issue then I thought it would probably appear on its own after a while and **went forward with the next steps and after adding the new Kali Linux VM the network option appeared on its own probably because it took time to show up in the options**.
 
 **Evidence:**
 
