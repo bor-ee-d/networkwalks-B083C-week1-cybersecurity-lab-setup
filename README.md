@@ -79,7 +79,7 @@ The VM resources were adjusted according to the available host hardware while le
 
 - <img width="1826" height="1170" alt="image" src="https://github.com/user-attachments/assets/c71e6da9-d17d-4821-aa2d-4985388e731a" />
 
-Step 5 — Configuring the Virtual Network
+## 5. Configuring the Virtual Network
 
 I configured the virtual networking required for the cybersecurity lab.
 
