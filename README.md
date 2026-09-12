@@ -140,9 +140,13 @@ The resolution was rather complicated as I tried **multiple strategies** to get 
 
 - <img width="1024" height="813" alt="image" src="https://github.com/user-attachments/assets/a44f8a61-a511-4222-8674-6980a96cdbc2" />
 
+## Final Working Lab
+
+-<img width="1830" height="1168" alt="image" src="https://github.com/user-attachments/assets/fbe05b18-ed39-4cbd-999c-d928243ce586" />
+
 ## Screenshots / Evidence
 
-The following evidence will were added to this repository:
+The following evidence were added to this repository:
 
 ```text
 screenshots/
@@ -157,7 +161,7 @@ screenshots/
 
 Screenshots show the actual configuration used for this project rather than example values from other lab repositories.
 
-## What I Learned
+## What I Learned from Week 1 Project
 
 Through this setup, I gained practical experience with:
 
@@ -166,11 +170,10 @@ Through this setup, I gained practical experience with:
 - Allocating VM resources appropriately.
 - Troubleshooting virtualization software.
 - The importance of documenting technical issues and their solutions.
-
+  
 The troubleshooting process was particularly useful because it showed that real-world setup does not always match a tutorial step-for-step.
 
 ## Security & Ethical Use
-
 This lab is intended strictly for **authorized cybersecurity learning and testing**.
 
 Any penetration testing, scanning, exploitation, or other security activity performed using this environment should only target systems for which I have explicit permission.
