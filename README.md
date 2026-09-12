@@ -21,8 +21,7 @@ The goal of the lab is to create a controlled environment where cybersecurity co
 | Host OS | **10.0.26200 Build 26200** |
 | CPU | **CPU Intel(R) Core(TM) Ultra 7 155H** |
 | Host RAM | **16.0 GB** |
-| Virtualization Software | VirtualBox **Version 7.2.16 r174877 (Qt6.8.0 on windows)
-** |
+| Virtualization Software | VirtualBox **Version 7.2.16 r174877 (Qt6.8.0 on windows)**|
 | Guest OS | Kali Linux **Debian (64-bit)** |
 | Kali RAM | **4 MB ---> 16364 MB** |
 | Kali CPU | **1 CPU ---> 32 CPUs** |
