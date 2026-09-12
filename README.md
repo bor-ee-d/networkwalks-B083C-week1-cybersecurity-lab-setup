@@ -59,7 +59,7 @@ After installation, I opened VirtualBox and verified that the application could 
 
 - <img width="1972" height="1242" alt="image" src="https://github.com/user-attachments/assets/a0487bba-9842-4ce4-83a0-dbff26a43c5a" />
 
-- <img width="1826" height="1170" alt="image" src="https://github.com/user-attachments/assets/e24ebc46-5b49-4ebe-aff4-aa7ca1174eb8" />
+- <img width="1920" height="1504" alt="image" src="https://github.com/user-attachments/assets/16f8524b-7f34-4c0e-9b36-f8e38d9b5638" />
 
 ### 4. Import / Create the Kali Linux VM
 
@@ -69,14 +69,15 @@ The VM resources were adjusted according to the available host hardware while le
 
 **VM configuration:**
 
-- RAM: **[your allocated RAM]**
-- CPU: **[your allocated CPU cores]**
-- Network adapter: **[your adapter configuration]**
+- RAM: **4 MB ---> 16364 MB**
+- CPU: **1 CPU ---> 32 CPUs**
+- Network adapter: **Nat Network**
 
 **Evidence:**
 
-- [ ] Kali VM settings screenshot
-- [ ] Kali Linux desktop screenshot
+- <img width="2880" height="1796" alt="image" src="https://github.com/user-attachments/assets/b1b5d019-d058-4c04-a8f3-a30dee339bc0" />
+
+- <img width="1826" height="1170" alt="image" src="https://github.com/user-attachments/assets/c71e6da9-d17d-4821-aa2d-4985388e731a" />
 
 ## Problems Encountered & Troubleshooting
 
