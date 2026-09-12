@@ -95,9 +95,17 @@ VirtualBox features and management options can depend on the installed version, 
 
 **Evidence:**
 
-- [ ] Screenshot showing the missing Network option
-- [ ] Screenshot of the troubleshooting / installation state
-- [ ] Screenshot showing the final working configuration
+- <img width="1936" height="1511" alt="image" src="https://github.com/user-attachments/assets/a64ee9e6-7f5e-46b0-9991-5be9d89aedc7" />
+
+- <img width="980" height="762" alt="image" src="https://github.com/user-attachments/assets/56f430ad-1e3b-46d9-a73c-93ea53b4a39e" />
+
+Before configuration and repair
+
+- <img width="1928" height="1480" alt="image" src="https://github.com/user-attachments/assets/67fb379f-0a45-479c-8b53-e9195f7ca284" />
+
+After configuration and repair
+
+- <img width="1920" height="1482" alt="image" src="https://github.com/user-attachments/assets/0e31af4c-fc57-4112-87d7-cf0dfe34d97d" />
 
 ### 2. VirtualBox Installer Issue
 
@@ -107,17 +115,19 @@ This became an additional troubleshooting step during the lab setup.
 
 **Resolution:**
 
-**[Insert the exact steps that finally fixed the issue here.]**
+**The resolution was rather complicated as I tried multiple strategies to get the network option to show when I got to File --> Tools --> (supposed to find network but not available but every other option is shown). For resolving this issue I uninstalled the VM and then restarted my pc and then reinstalled it but that still didn't fix the issue thats when I opened the installer and opted for repair and then again restarted my pc and checked and that too didn't fix the issue then I thought it would probably appear on it's own after a while and went forward with the next steps and after adding the new Kali Linux VM the network option appeared on it's own probably because it took time to show up in the options.**
 
 **Evidence:**
 
-- [ ] Installer Repair/Remove screenshot
-- [ ] Installer error screenshot
-- [ ] Final successful installation screenshot
+- <img width="982" height="774" alt="image" src="https://github.com/user-attachments/assets/9000ae7a-0de0-4c1a-9a51-3f9da85cbede" />
+
+- <img width="980" height="762" alt="image" src="https://github.com/user-attachments/assets/940f24bd-c08a-4d57-95b6-31ab96a6780e" />
+
+- <img width="1024" height="813" alt="image" src="https://github.com/user-attachments/assets/a44f8a61-a511-4222-8674-6980a96cdbc2" />
 
 ## Screenshots / Evidence
 
-The following evidence will be added to this repository:
+The following evidence will were added to this repository:
 
 ```text
 screenshots/
@@ -130,7 +140,7 @@ screenshots/
     └── installer-error.png
 ```
 
-Screenshots should show the actual configuration used for this project rather than example values from other lab repositories.
+Screenshots show the actual configuration used for this project rather than example values from other lab repositories.
 
 ## What I Learned
 
