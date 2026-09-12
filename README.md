@@ -27,23 +27,6 @@ The goal of the lab is to create a controlled environment where cybersecurity co
 | Kali CPU | **[allocated CPU cores]** |
 | Network Adapter | **[your adapter configuration]** |
 
-## Lab Architecture
-
-```text
-+-----------------------------+
-|        Host Computer        |
-|        Windows OS           |
-|                             |
-|        VirtualBox           |
-|             |               |
-|             v               |
-|      +---------------+      |
-|      |   Kali Linux  |      |
-|      | Virtual Machine|     |
-|      +---------------+      |
-+-----------------------------+
-```
-
 The virtual machine provides a separate environment for cybersecurity practice while the host system remains outside the testing activities.
 
 ## Lab Setup Procedure
