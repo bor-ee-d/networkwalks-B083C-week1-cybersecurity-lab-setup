@@ -37,8 +37,9 @@ Before creating the virtual machine, I checked that the system had sufficient re
 
 **Evidence:**
 
-- [ ] Host system information screenshot
-- [ ] CPU / RAM screenshot
+- <img width="1480" height="1418" alt="image" src="https://github.com/user-attachments/assets/15b9cd88-1e2d-4056-b4ef-56c9f1559a7f" />
+
+- <img width="2156" height="1160" alt="image" src="https://github.com/user-attachments/assets/95f60962-3781-4e01-849f-10df98ce0a05" />
 
 ### 2. Install 7-Zip
 
@@ -46,7 +47,7 @@ Before creating the virtual machine, I checked that the system had sufficient re
 
 **Evidence:**
 
-- [ ] 7-Zip installation screenshot
+- <img width="1462" height="872" alt="image" src="https://github.com/user-attachments/assets/13b564ae-7fcb-4087-97bc-5fb63bb3c9b8" />
 
 ### 3. Install VirtualBox
 
