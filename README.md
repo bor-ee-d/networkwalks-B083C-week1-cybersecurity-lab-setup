@@ -2,19 +2,15 @@
 
 ## Project Overview
 
-This project documents my Week 1 Cybersecurity Internship task with **Networkwalks**: setting up an isolated virtual cybersecurity lab using **VirtualBox** and **Kali Linux**.
+This project documents my Week 1 Cybersecurity Internship task with **Networkwalks**: setting up a cybersecurity lab using **VirtualBox** and **Kali Linux**.
 
-The goal of the lab is to create a controlled environment where cybersecurity concepts and security-testing activities can be practiced without directly affecting a normal host system or external networks.
-
-> **Note:** Configuration values are marked as placeholders where I still need to insert my own verified system and network details. Screenshots will also be added as evidence of my setup.
+The goal of the lab is to create a controlled environment where cybersecurity concepts and security-testing activities can be practiced safely.
 
 ## Objectives
 
 - Install and configure VirtualBox.
 - Set up Kali Linux as a virtual machine.
-- Configure the VM's networking.
-- Verify communication between the virtual machine and its network gateway.
-- Test internet connectivity and DNS resolution.
+- Configure the Kali VM resources.
 - Document the setup process and troubleshooting steps.
 - Maintain a controlled environment for cybersecurity learning and testing.
 
@@ -29,12 +25,7 @@ The goal of the lab is to create a controlled environment where cybersecurity co
 | Guest OS | Kali Linux **[version]** |
 | Kali RAM | **[allocated RAM]** |
 | Kali CPU | **[allocated CPU cores]** |
-| Network Mode | **[NAT / NAT Network]** |
-| Network Name | **[network name, if applicable]** |
-| Network CIDR | **[your address range]** |
-| Kali IP Address | **[your Kali IP]** |
-| Default Gateway | **[your gateway]** |
-| DNS | **[your DNS]** |
+| Network Adapter | **[your adapter configuration]** |
 
 ## Lab Architecture
 
@@ -50,8 +41,6 @@ The goal of the lab is to create a controlled environment where cybersecurity co
 |      |   Kali Linux  |      |
 |      | Virtual Machine|     |
 |      +---------------+      |
-|             |               |
-|        Virtual Network      |
 +-----------------------------+
 ```
 
@@ -87,21 +76,7 @@ After installation, I opened VirtualBox and verified that the application could 
 - [ ] VirtualBox installation screenshot
 - [ ] VirtualBox Manager screenshot
 
-### 4. Configure the Virtual Network
-
-The virtual machine was configured with the required networking mode for the lab.
-
-**Network configuration:**
-
-- Network mode: **[your mode]**
-- Network name: **[your network name, if applicable]**
-- Address range: **[your address range]**
-
-**Evidence:**
-
-- [ ] VirtualBox network configuration screenshot
-
-### 5. Import / Create the Kali Linux VM
+### 4. Import / Create the Kali Linux VM
 
 Kali Linux was configured as the guest operating system inside VirtualBox.
 
@@ -117,57 +92,6 @@ The VM resources were adjusted according to the available host hardware while le
 
 - [ ] Kali VM settings screenshot
 - [ ] Kali Linux desktop screenshot
-
-### 6. Configure and Verify Kali Networking
-
-Inside Kali Linux, I checked the assigned network interface and IP address using:
-
-```bash
-ip a
-```
-
-I then tested connectivity to the configured gateway:
-
-```bash
-ping -c 4 <gateway-ip>
-```
-
-Internet connectivity was tested with:
-
-```bash
-ping -c 4 8.8.8.8
-```
-
-Finally, DNS resolution was checked using:
-
-```bash
-nslookup google.com
-```
-
-**Evidence:**
-
-- [ ] `ip a` output screenshot
-- [ ] Gateway ping screenshot
-- [ ] Internet connectivity screenshot
-- [ ] DNS test screenshot
-
-## Verification
-
-The following checks were used to confirm that the lab was functioning correctly:
-
-| Test | Expected Result | Status |
-|---|---|---|
-| Kali receives an IP address | Valid IP assigned | **[Pass/Fail]** |
-| Gateway connectivity | Successful ping | **[Pass/Fail]** |
-| Internet connectivity | Successful ping to external IP | **[Pass/Fail]** |
-| DNS resolution | Domain resolves successfully | **[Pass/Fail]** |
-| Nmap available | Nmap version displayed | **[Pass/Fail]** |
-
-To verify Nmap:
-
-```bash
-nmap --version
-```
 
 ## Problems Encountered & Troubleshooting
 
@@ -213,13 +137,8 @@ The following evidence will be added to this repository:
 screenshots/
 ├── host-system.png
 ├── virtualbox-manager.png
-├── virtualbox-network.png
 ├── kali-settings.png
 ├── kali-desktop.png
-├── kali-ip-address.png
-├── gateway-ping.png
-├── internet-connectivity.png
-├── dns-test.png
 └── troubleshooting/
     ├── network-option-missing.png
     └── installer-error.png
@@ -233,10 +152,7 @@ Through this setup, I gained practical experience with:
 
 - Virtual machine deployment using VirtualBox.
 - Kali Linux as a cybersecurity-focused operating system.
-- Basic Linux networking commands.
-- IP addressing and default gateways.
-- DNS resolution testing.
-- Virtual networking concepts.
+- Allocating VM resources appropriately.
 - Troubleshooting virtualization software.
 - The importance of documenting technical issues and their solutions.
 
@@ -248,7 +164,7 @@ This lab is intended strictly for **authorized cybersecurity learning and testin
 
 Any penetration testing, scanning, exploitation, or other security activity performed using this environment should only target systems for which I have explicit permission.
 
-The purpose of the isolated lab is to provide a controlled environment for learning without intentionally affecting systems or networks that I do not own or have authorization to test.
+The purpose of the lab is to provide a controlled environment for learning without intentionally affecting systems or networks that I do not own or have authorization to test.
 
 ## Tools & Technologies
 
@@ -256,8 +172,6 @@ The purpose of the isolated lab is to provide a controlled environment for learn
 - VirtualBox
 - Kali Linux
 - 7-Zip
-- Nmap
-- Linux networking utilities
 
 ## Project Information
 
